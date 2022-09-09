@@ -1,0 +1,14 @@
+<div class="mainCards">
+  <div *ngFor="let item of products" class="cardsItem">
+    <div>
+      <img src="{{item.url}}" alt="{{item.model}}">
+    </div>
+    <div>
+      <h2>{{item.brand}}</h2>
+      <h3>{{item.model}}</h3>
+      <p>{{item.description}}</p>
+      <h3>Цена: <span>{{item.price | currency}}</span></h3>
+      <button type="button" (click)="buy(item)">Купить!</button>
+    </div>
+  </div>
+</div>
