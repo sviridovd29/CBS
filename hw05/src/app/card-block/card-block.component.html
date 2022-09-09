@@ -1,0 +1,13 @@
+<div class="mainCard">
+  <div *ngFor="let item of giveCars; let i = index">
+    <div class="mainItem" #one>
+      <h2>{{item.name}}</h2>
+      <img src="{{item.url}}" alt="{{item.name}}">
+      <p>Цена: <span #two>{{item.price}} </span> $</p>
+      <button type="button" (click)='pushId(item.id)'>Узнать больше</button>
+    </div>
+  </div>
+
+</div>
+
+<ng-content></ng-content>

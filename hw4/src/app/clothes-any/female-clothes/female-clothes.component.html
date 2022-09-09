@@ -1,0 +1,22 @@
+<div class="female container">
+  <div *ngFor="let str of allFM" class="mainCard">
+    <div class="mainCardDiv">
+      <div>
+        <h3>{{str.name | uppercase}}</h3>
+        <p>2022</p>
+      </div>
+      <div class="imgSize">
+        <img src="{{str.url }}" alt="{{str.name}}">
+      </div>
+
+      <div class="pricePar">
+        <p>от {{str.price}} грн</p>
+        <span>В наличии</span>
+      </div>
+      <button type="button" class="btn">Купить </button>
+
+    </div>
+
+  </div>
+</div>
+

@@ -1,0 +1,36 @@
+.mainCard {
+  display: flex;
+}
+
+.mainItem {
+text-align: center;
+  border: 1px solid #424242;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #e7e7e7;
+}
+
+img {
+  width: 200px;
+}
+
+p {
+  font-size: 20px;
+}
+
+span {
+  color: red;
+}
+
+button {
+  padding: 5px 20px;
+}
+
+button:hover  {
+  color: white;
+  background-color: #fa5656;
+  box-shadow: 2px 2px 5px black;
+}
+
+

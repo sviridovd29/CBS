@@ -1,0 +1,16 @@
+<button type="button" *ngIf="flag" (click)="getSale()">Хочу скидку!</button>
+<div>
+    <div *ngFor="let item of showMore">
+      <div class="mainItem" >
+        <h2>{{item.name}}</h2>
+        <p>Подробное описание: {{item.description}}</p>
+        <p>Цена: <span>{{item.price}} </span> $</p>
+        <img src="{{item.url}}" alt="{{item.name}}">
+    </div>
+  </div>
+</div>
+
+
+<app-card-block [giveCars]="cars" (myEvent)="fHandler($event)">
+<b #el>Текст с каким-то фоном</b>
+</app-card-block>

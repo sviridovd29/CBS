@@ -1,0 +1,65 @@
+.fruite {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Comic Sans MS";
+  background-color: #f0f1f5;
+  padding: 0 40px;
+}
+
+.mainCard {
+width: 32%;
+
+}
+
+.mainCardDiv {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px 30px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+
+}
+
+.mainCardDiv:hover {
+  box-shadow: 5px 2px 5px #878787;
+  transition: box-shadow 0.3s ease-in-out 0s;
+}
+
+.imgSize {
+  overflow: hidden;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.imgSize img{
+ max-height: 150px;
+}
+
+.btn {
+
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 8px ;
+  border: none;
+  background-color: #b7d000;
+  color: white;
+
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #878787;
+  color: #123100;
+}
+
+span {
+  color: #b7d000;
+  font-size: 12px;
+}
+
+.pricePar {
+  color: #ec0808;
+  font-size: 25px;
+}

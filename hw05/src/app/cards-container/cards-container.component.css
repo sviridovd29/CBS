@@ -1,0 +1,18 @@
+p {
+  font-size: 22px;
+  color: red;
+}
+
+button {
+  padding: 5px 15px;
+  background: #fa5656;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  color: #e7e7e7;
+}
+
+
